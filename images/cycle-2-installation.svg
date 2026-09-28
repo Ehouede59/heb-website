@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Nouveau-né">
+  <defs><clipPath id="c2"><circle cx="100" cy="100" r="96"/></clipPath></defs>
+  <circle cx="100" cy="100" r="96" fill="#DBEAFE"/>
+  <g clip-path="url(#c2)">
+    <circle cx="48" cy="50" r="24" fill="#BFDBFE"/>
+    <circle cx="156" cy="150" r="30" fill="#BFDBFE"/>
+    <!-- couverture -->
+    <path d="M40 200 C36 150 56 128 100 128 C144 128 164 150 160 200 Z" fill="#1E40AF"/>
+    <path d="M52 172 C80 160 120 160 148 172" fill="none" stroke="#93C5FD" stroke-width="4" stroke-linecap="round"/>
+    <path d="M48 188 C80 176 120 176 152 188" fill="none" stroke="#93C5FD" stroke-width="4" stroke-linecap="round"/>
+    <!-- oreilles -->
+    <circle cx="64" cy="92" r="8" fill="#8A5A3C"/>
+    <circle cx="136" cy="92" r="8" fill="#8A5A3C"/>
+    <!-- tête -->
+    <circle cx="100" cy="90" r="38" fill="#95633F"/>
+    <!-- mèche -->
+    <path d="M92 54 C98 46 108 48 108 56 C104 54 98 54 92 60 Z" fill="#1F2937"/>
+    <!-- yeux fermés -->
+    <path d="M80 92 Q86 98 92 92" fill="none" stroke="#1F2937" stroke-width="3" stroke-linecap="round"/>
+    <path d="M108 92 Q114 98 120 92" fill="none" stroke="#1F2937" stroke-width="3" stroke-linecap="round"/>
+    <!-- joues, nez, sourire -->
+    <circle cx="76" cy="106" r="7" fill="#E07A5F" opacity=".55"/>
+    <circle cx="124" cy="106" r="7" fill="#E07A5F" opacity=".55"/>
+    <circle cx="100" cy="102" r="3" fill="#7A4B2F"/>
+    <path d="M90 112 Q100 122 110 112" fill="none" stroke="#1F2937" stroke-width="3" stroke-linecap="round"/>
+    <!-- mains -->
+    <circle cx="76" cy="136" r="9" fill="#95633F"/>
+    <circle cx="124" cy="136" r="9" fill="#95633F"/>
+  </g>
+</svg>

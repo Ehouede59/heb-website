@@ -126,12 +126,10 @@ if (contactForm) {
 
         try {
             const formData = new FormData(contactForm);
-            const response = await fetch(contactForm.action, {
+            const response = await fetch('/', {
                 method: 'POST',
-                body: formData,
-                headers: {
-                    'Accept': 'application/json'
-                }
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: new URLSearchParams(formData).toString()
             });
 
             if (response.ok) {
@@ -145,7 +143,7 @@ if (contactForm) {
                     submitBtn.disabled = false;
                 }, 3000);
 
-                alert("✅ Merci ! Votre demande d'audit Biomédical a bien été envoyée. Nous vous contacterons sous 48h.");
+                alert("✅ Merci ! Votre demande d'audit Biomédical a bien été envoyée. Nous vous contacterons .");
             } else {
                 throw new Error("Erreur lors de l'envoi");
             }

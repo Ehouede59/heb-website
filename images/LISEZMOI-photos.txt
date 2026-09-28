@@ -1,0 +1,10 @@
+PHOTOS A AJOUTER (section "Cycle de vie")
+Deposez 4 photos dans ce dossier avec EXACTEMENT ces noms :
+
+  cycle-1.jpg  -> femme enceinte (Avant l'achat)
+  cycle-2.jpg  -> nouveau-ne (Installation)
+  cycle-3.jpg  -> suivi / tableau de bord / equipement en service (Exploitation)
+  cycle-4.jpg  -> renouvellement / remplacement d'un equipement (Renouvellement)
+
+Format conseille : carre, 600 x 600 px, moins de 150 Ko.
+Tant qu'une photo est absente, l'illustration (fichier .svg) s'affiche a la place.

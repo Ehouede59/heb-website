@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Renouvellement des équipements">
+  <defs><clipPath id="c4"><circle cx="100" cy="100" r="96"/></clipPath></defs>
+  <circle cx="100" cy="100" r="96" fill="#FEE2E2"/>
+  <g clip-path="url(#c4)">
+    <circle cx="44" cy="46" r="22" fill="#FECACA"/>
+    <circle cx="158" cy="156" r="28" fill="#FECACA"/>
+    <!-- flèches circulaires -->
+    <path d="M52 100 A48 48 0 0 1 132 62" fill="none" stroke="#DC2626" stroke-width="12" stroke-linecap="round"/>
+    <path d="M148 100 A48 48 0 0 1 68 138" fill="none" stroke="#DC2626" stroke-width="12" stroke-linecap="round"/>
+    <path d="M118 40 L152 60 L120 82 Z" fill="#DC2626"/>
+    <path d="M82 160 L48 140 L80 118 Z" fill="#DC2626"/>
+    <!-- croix médicale -->
+    <circle cx="100" cy="100" r="27" fill="#FFFFFF"/>
+    <rect x="93" y="83" width="14" height="34" rx="3" fill="#059669"/>
+    <rect x="83" y="93" width="34" height="14" rx="3" fill="#059669"/>
+  </g>
+</svg>

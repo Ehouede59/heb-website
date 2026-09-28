@@ -695,8 +695,17 @@ img {
 .step-4 { border-top-color: var(--danger); }
 
 .cycle-icon {
-    font-size: 3rem;
     margin-bottom: 15px;
+}
+
+.cycle-img {
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: var(--shadow-md);
 }
 
 .cycle-step h3 {
